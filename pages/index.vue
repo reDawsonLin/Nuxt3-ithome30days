@@ -8,6 +8,8 @@
       <div class="my-4 flex gap-x-4">
         <nuxt-link to="/about">前往 About</nuxt-link>
         <nuxt-link to="/contact">前往 Contact</nuxt-link>
+        <nuxt-link to="/posts">前往 posts</nuxt-link>
+        <nuxt-link to="/docs">前往 docs</nuxt-link>
       </div>
     </div>
   </div>
