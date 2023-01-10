@@ -1,11 +1,19 @@
 <template>
-  <div>
-    <NuxtPage/>
+  <div class="m-4 bg-white">
+    <p class="pb-4 text-2xl text-slate-600">這裡是 app.vue 最外層</p>
+    <NuxtLayout name="default">
+      <template #header>
+        <p class="px-6 pt-4 text-xl text-green-500">這段會放置在 header 插槽</p>
+      </template>
+      <template #default>
+        <p class="px-6 pt-4 text-xl text-cyan-500">
+          被 NuxtLayout 包裹的元件將會放置到 Layout 的預設 slot 中
+        </p>
+      </template>
+      <template #footer>
+        <p class="px-6 pt-4 text-xl text-blue-500">這段會放置在 footer 插槽</p>
+      </template>
+    </NuxtLayout>
+    <!-- <NuxtPage /> -->
   </div>
-  <!-- <div class="bg-white py-24">
-    <div class="flex flex-col items-center">
-      <h1 class="text-6xl font-semibold text-blue-600">2022 iThome</h1>
-      <p class="mt-4 text-9xl font-bold text-gray-900">鐵人賽</p>
-    </div>
-  </div> -->
 </template>
