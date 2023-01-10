@@ -1,7 +1,16 @@
 <template>
-  <div class="bg-white py-24">
+  <!-- day -->
+  <!-- <div class="bg-white py-24">
     <div class="flex flex-col items-center">
       <h1 class="text-6xl font-semibold text-yellow-400">大家好！</h1>
+      <p class="my-8 text-3xl text-gray-600">這裡是 /about</p>
+    </div>
+  </div> -->
+
+  <!-- day8 -->
+  <div class="mx-6 mb-4 bg-slate-50 py-24">
+    <div class="flex flex-col items-center">
+      <h1 class="text-6xl font-semibold text-yellow-400">大家好！我是 Ryan</h1>
       <p class="my-8 text-3xl text-gray-600">這裡是 /about</p>
     </div>
   </div>
