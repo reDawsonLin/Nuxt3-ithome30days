@@ -41,6 +41,8 @@ const RoundButton = resolveComponent("RoundApplyButton");
 </script>
 
 <style lang="scss" scoped></style>
+
+
 <template>
   <div class="m-4 bg-white">
     <p class="pb-4 text-2xl text-slate-600">這裡是 app.vue 最外層</p>

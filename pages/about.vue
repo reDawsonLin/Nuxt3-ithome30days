@@ -15,3 +15,9 @@
     </div>
   </div>
 </template>
+
+<script setup>
+definePageMeta({
+  middleware: ["random-redirect"],
+});
+</script>
